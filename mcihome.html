@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="mccss.css">
+<script src="mcjs.js"></script>
 </head>
 <body>
 
@@ -14,13 +15,14 @@
   <nav class="nav0">
   </nav>
     <div style="margin-left: 5%; float: left; margin-top: -1.25%;">
-      <a href="mcihome.html"><img src="img/icon.png" width="7%"></a>
-        <div class="lista">
+      <a href="#section0"><img src="img/icon.png" width="7%"></a>
+        <div class="lista tuclase2">
          <ul>
           <li><a href="mcihome.html" style="color: #e72537">Home</a></li>
-          <li><a href="">Artists</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section1">Artists</a></li>
+          <li><a href="#section4">Tracks</a></li>
+          <li><a href="">Contact</a></li>        
         </ul>
       </div>      
     </div>
@@ -29,19 +31,19 @@
 
 <section>
 
-  <header>
+  <header id="section0">
     <div class="imgfondo">
     </div>   
   </header>
   
-  <nav class="nav2">
+  <nav class="nav2" id="section2">
     <div class="cintu">
       <img src="img/icon.png" width="8%">
     </div>
   </nav>
    
-  <article>
-    <div class="texto effect7">
+  <article  id="section1">
+    <div class="texto effect7 tuclase1">
       <br>
 
       <p><b>Who we are?</b></p>
@@ -71,55 +73,57 @@
     </div>
   </header>
 
-  <div class="trackdiv">
+  <div class="trackdiv" id="section4">
 
     <div class="barrita">
     </div>
 
     <div class="tracktexto">
-      <p>Latest Releases</p>
+      <p>Latest Myth Colective Releases</p>
     </div>
 
     <a href="" style="text-decoration: none;">
     <div class="boton">
-      <p>VIEW ALL</p>
+      <a style='cursor: pointer;' onClick="muestra_oculta('contenido')" title="" class="boton_mostrar">VIEW ALL</a>
     </div></a>
 
     <div class="tracks">
       <div class="img1">
-        <a href="https://soundcloud.com/skybreakofficial/goodbye"><img src="img/1.PNG" width="100%" style="border: 3px solid #0a0a0a; "></a>
+        <a href="https://soundcloud.com/skybreakofficial/goodbye"><img src="img/1.PNG" class="effect7" width="100%" style="border: 3px solid #0a0a0a; "></a>
       </div>
 
       <div class="img2">
-        <a href="https://soundcloud.com/colbreakz/colbreakz-75000"><img src="img/2.PNG" width="65.75%" style="border: 3px solid #0a0a0a; "></a>
+        <a href="https://soundcloud.com/colbreakz/colbreakz-75000"><img src="img/2.PNG" class="effect7" width="59%" style="border: 3px solid #0a0a0a; "></a>
       </div>
 
-      <div class="">
-        <a href="https://soundcloud.com/spacepizzarecords/vizzen-fly-alone-space-pizza-z"><img src=""></a>
+      <div class="img3">
+        <a href="https://soundcloud.com/spacepizzarecords/vizzen-fly-alone-space-pizza-z"><img src="img/3.PNG" class="effect7" width="66%" style="border: 3px solid #0a0a0a; "></a>
       </div>
 
-      <div class="">
-        <a href="https://soundcloud.com/punyaso/fallguystrap-ft-vizzen"><img src=""></a>
-      </div>
-
-      <div class="">
-        <a href="https://soundcloud.com/vizzen-official/lost-feelings-feeling-lost-vip-remix"><img src=""></a>
-      </div>
-
-      <div class="">
-        <a href="https://soundcloud.com/thearcadium/vizzen-imperfect"><img src=""></a>
-      </div>
-
-      <div class="">
-        <a href="https://soundcloud.com/colbreakz/you-me"><img src=""></a>
-      </div>
-
-      <div class="">
-        <a href="https://soundcloud.com/novalianmusic/franetic-x-novalian-last-forever"><img src=""></a>
-      </div>
-
-      <div class="">
-        <a href="https://soundcloud.com/protolizard/nevermind"><img src=""></a>
+      <div id="contenido">
+        <div class="img4">
+          <a href="https://soundcloud.com/punyaso/fallguystrap-ft-vizzen"><img src="img/4.PNG" class="effect7" width="59%" style="border: 3px solid #0a0a0a; "></a>
+        </div>
+  
+        <div class="img5">
+          <a href="https://soundcloud.com/vizzen-official/lost-feelings-feeling-lost-vip-remix"><img src="img/5.PNG" class="effect7" width="59%"style="border: 3px solid #0a0a0a; "></a>
+        </div>
+  
+        <div class="img6">
+          <a href="https://soundcloud.com/thearcadium/vizzen-imperfect"><img src="img/6.PNG" class="effect7"  width="67%" style="border: 3px solid #0a0a0a; "></a>
+        </div>
+  
+        <div class="img7">
+          <a href="https://soundcloud.com/colbreakz/you-me"><img src="img/7.PNG" class="effect7"  width="59%" style="border: 3px solid #0a0a0a; "></a>
+        </div>
+  
+        <div class="img8">
+          <a href="https://soundcloud.com/novalianmusic/franetic-x-novalian-last-forever"><img src="img/8.PNG" class="effect7"  width="60%" style="border: 3px solid #0a0a0a; "></a>
+        </div>
+  
+        <div class="img9">
+          <a href="https://soundcloud.com/protolizard/nevermind"><img src="img/9.PNG" class="effect7"  width="67%" style="border: 3px solid #0a0a0a; "></a>
+        </div>
       </div>
     </div>
 
@@ -133,9 +137,9 @@
         <a href="https://copyright.es/" style="color: #f8f8ff;"><p>Privacy Policy - Terms & Conditions</p></a>
     </div>
     <div class="foot2">
-        <a href="https://soundcloud.com/vizzen-official"><img src="img/soundlog.png" width="2%" style="margin-right: 7%;"></a>
-        <a href="https://open.spotify.com/artist/0EKwbldduMcVWub0o2V5e5"><img src="img/spotlog.png" width="2%" style="margin-right: 7%;"></a>
-        <a href="https://music.apple.com/us/artist/vizzen/1456756320?l=es"><img src="img/ituneslog.png" width="2%" style="margin-right: 7%;"></a>
+        <a href="https://soundcloud.com/vizzen-official"><img src="img/soundlog.png" width="2%" style="margin-right: 5%;"></a>
+        <a href="https://open.spotify.com/artist/0EKwbldduMcVWub0o2V5e5"><img src="img/spotlog.png" width="2%" style="margin-right: 5%;"></a>
+        <a href="https://music.apple.com/us/artist/vizzen/1456756320?l=es"><img src="img/ituneslog.png" width="2%" style="margin-right: 5%;"></a>
         <a href="https://www.youtube.com/channel/UCs8rzbgPEKJmV0R0Dc1uePA"><img src="img/ytlog.png" width="2%" style="margin-right: 1%;"></a>
     </div>
 </footer>
