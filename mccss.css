@@ -1,11 +1,17 @@
 * {
     box-sizing: border-box;
     margin: 0%;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;  
   }
   
+  @font-face {
+    font-family: knife;
+    src: url(knife.ttf);
+  }
+
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8ff;
   }
   
   header {
@@ -15,6 +21,24 @@
     font-size: 35px;
     color: #f8f8ff;   
     height: 550px;
+  }
+
+  .head1 {
+    position: relative;
+    margin-top: 8%;
+    float: left;
+    margin-left: 22%;
+  }
+
+  .head2 {
+    position: relative;
+    margin-top: 15%;
+    float: left;
+    margin-left: 10%;
+    color: #f8f8ff;
+    font-size: 22px;
+    border: 1px solid #f8f8ff;
+    padding: 1%;
   }
   
   nav {
@@ -131,12 +155,12 @@
     float: left;
     padding: 10px;
     color: #f8f8ff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: knife;
     margin-left: 13%;
   }
 
   .lista {
-    margin-left: 31%;
+    margin-left: 40%;
     margin-top: -5.4%;
   }
 
@@ -165,10 +189,6 @@
     margin-left: 20%;
     margin-right: 20%;
     height: 300px;
-  }
-
-  li :hover {
-    color: #e72537;
   }
 
   .imgh{
