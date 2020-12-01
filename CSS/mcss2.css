@@ -105,7 +105,7 @@
     color: #f8f8ff;
     padding: 2%;
     border-top: 2px solid #999999;
-    margin-top: 5%;
+    margin-top: 44.25%;
   }
   
   .foot1 {
@@ -420,16 +420,17 @@ transform:skew(8deg) rotate(3deg);
   margin-right: 25%;
 }
 
-#mensajes {
-  float: left;
-  background: #33FF33;
-  width: 325px;
-}
-
 #errores {
   float: left;
-  background: #FF6633;
-  width: 325px;
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 13%;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e72537;
 }
 
 #intentos {
@@ -477,6 +478,7 @@ input[type="submit"] {
   width: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 15%;
+  font-size: 18px;
 }
 
 input[type="reset"] {
@@ -488,6 +490,7 @@ input[type="reset"] {
   margin-left: 20%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 15%;
+  font-size: 18px;
 }
 
 input[type="file"] {
@@ -495,7 +498,8 @@ input[type="file"] {
   border: none;
   cursor: pointer;
   width: 100px;
-  height: 35px;
+  height: 35px; 
+  margin-top: 5%;
 }
 
 table {
@@ -518,10 +522,4 @@ th, td {
   margin-left: 37%;
   margin-top: 5%;
   font-size: 32px;
-}
-
-.relleno {
-  color: #000000;
-  background-color: #000000;
-  /*margin-top: 20%;*/
 }

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Myth Collective || Vizzen</title>
+<title>Myth Collective || Contact Us</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../CSS/mccss.css">
-<script src="../JS/mcjs.js"></script>
+<link rel="stylesheet" href="../CSS/mcss2.css">
+<script src="../JS/mcjsform.js"></script>
 </head>
 <body>
-
-
 
 <nav class="nav1">
   <nav class="nav0">
@@ -20,16 +18,52 @@
          <ul>
           <li><a href="../HTML/mchome.html" class="imgh">Home</a></li>
           <li><a href="../HTML/mchome.html" class="imgh">About</a></li>
-          <li><a href="../HTML/mchome.html" style="color: #e72537" class="bts imgh">Artists</a></li>
-          <li><a href="" class="imgh">Contact</a></li>        
+          <li><a href="../HTML/mchome.html" class="imgh">Artists</a></li>
+          <li><a href="../HTML/mcform.html" style="color: #e72537" class="bts imgh">Contact</a></li>        
         </ul>
       </div>      
     </div>
 </nav>
 
 <section>
-    
+    <div class="relleno">
 
+    </div>
+
+        <fieldset>
+            <h1 class="cont">Contact  us</h1>
+            <form name="formulario" id="formulario" action="" method="get">
+                <table>
+                    <tr>
+                        <th><label for="email">E-mail:</label></th>
+                        <td><input name="email" type="text" id="email" placeholder="Write a mail..."/></td>
+                    </tr>
+                    <tr>
+                        <th><label for="telefono">Teléfono:</label></th>
+                        <td><input name="telefono" type="text" id="telefono" maxlength="9" placeholder="Write a phone number..."/></td>
+                    </tr>
+                    <tr>
+                        <th><label for="text">Comment:</label></th>
+                        <td><textarea id="text" name="text" rows="4" cols="50" placeholder="..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <th><label for="myfile">Send a file:</label></th>
+                        <td><input type="file" id="myfile" name="myfile" value="Select Files" multiple></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><input type="submit" name="enviar" id="enviar" value="Submit" class="imgh"/><input type="reset" name="limpiar" id="button" value="Reset" class="imgh"/></td>
+                    </tr>                    
+                </table>
+            </form>
+            <div id="errores"></div>
+            <div id="intentos"></div>
+        </fieldset>
+    
 </section>
 
 <footer>
