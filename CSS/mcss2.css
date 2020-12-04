@@ -433,6 +433,19 @@ transform:skew(8deg) rotate(3deg);
   color: #e72537;
 }
 
+#envia2 {
+  float: left;
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 13%;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
 #intentos {
   float: left;
   background: #CCFF33;

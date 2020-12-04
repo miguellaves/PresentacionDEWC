@@ -7,6 +7,7 @@ function iniciar() {
 function val(item) {
     if (valtxt(this) && valmail() && valtlf()) {
         alert ("Information send, Thanks!");
+        //document.getElementById("envia2").innerHTML = "SEND!";
         return true;
     } else {
         item.preventDefault();
